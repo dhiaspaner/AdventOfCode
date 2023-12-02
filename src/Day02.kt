@@ -62,22 +62,6 @@ class Day02 {
     private fun String.gamesById() = substring(indexOf(" ") + 1, indexOf(":")).toInt() to
             " " + substring(indexOfFirst { it == ':' } + 1)
 
-    private val cubes = mapOf("red" to 0..12, "green" to 0..13, "blue" to 0..14)
-//    private fun String.isPossibleGame():Boolean {
-//        with(split(" ")) {
-//            val cube = get(2) to get(1).toInt()
-//            return cubes[cube.first]?.contains(cube.second) ?: false
-//        }
-//    }
-
-//    private fun String.minNumberOfCubes(): Int {
-//        with(split(" ")) {
-//            val cube = get(2) to get(1).toInt()
-//
-//        }
-//    }
-
-
 }
 
 fun main() {
